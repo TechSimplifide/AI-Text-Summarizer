@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* classes */
+
+
 .m-t {
   margin-top: 0.5rem;
 }
@@ -26,7 +27,8 @@
 .txt-cent {
   text-align: center;
 }
-/*  */
+
+
 
 html,
 body {
@@ -36,7 +38,7 @@ body {
 
 .Inp-fild {
   width: 70vw;
-  height: auto;
+  height: 20vh;
   font-size: 1rem;
   border: 2px solid rgb(78, 78, 179);
   border-radius: 0.4rem;
@@ -49,7 +51,9 @@ body {
 .summary-result {
   height: auto;
   width: 80vw;
-  border: 1px solid rgb(78, 78, 229);
+  border: 2px solid rgba(78, 78, 229, 0.979);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 670px) {
