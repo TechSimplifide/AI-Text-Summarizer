@@ -29,14 +29,13 @@ app.post("/summarize", async (req, res) => {
 
     const data = await response.json();
 
-    console.log("Response from HuggingFace API:", data); // 🧪 Debug
+    console.log("Response from HuggingFace API:", data);
 
     if (data.error) {
       return res.status(400).json({ error: data.error });
     }
 
     res.json({ summary: data[0].summary_text });
-
   } catch (error) {
     console.error("API Error:", error);
     res.status(500).json({ error: "Something went wrong!" });
