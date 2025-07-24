@@ -4,7 +4,7 @@ document.querySelector("button").addEventListener("click", () => {
 
   async function summarizeText() {
     try {
-      const response = await fetch("http://localhost:3000/summarize", {
+      const response = await fetch("https://ai-text-summarizer-backend-w8in.onrender.com/summarize", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
