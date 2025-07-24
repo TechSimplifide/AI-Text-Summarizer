@@ -1,5 +1,5 @@
 document.querySelector("button").addEventListener("click", () => {
-  const inpText = document.querySelector(".Inp-fild").value;
+  const inpText = document.querySelector(".Input-field").value;
   const outputText = document.querySelector(".summary-result");
 
   async function summarizeText() {
