@@ -4,6 +4,7 @@ A simple full-stack project to summarize text using AI. The project consists of:
 
 - **Backend**: Node.js + Express API that handles summarization logic (uses `.env` for configuration)
 - **Frontend**: Static HTML/CSS interface served via Nginx
+- **Live Preview** : [ai-text-summarizer-frontend](https://ai-text-summarizer-frontend-bi2x.onrender.com/)
 
 ---
 
