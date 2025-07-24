@@ -1,0 +1,8 @@
+# Prevent editor and unnecessary build files
+.vscode
+.idea
+.cache
+node_modules
+*.log
+Dockerfile
+.dockerignore

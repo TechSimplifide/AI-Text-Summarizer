@@ -1,0 +1,19 @@
+# Ignore node modules
+node_modules
+
+# Ignore logs
+*.log
+
+# Ignore environment files (optional, if you're passing via env_file)
+.env
+
+# Ignore Docker-related files if unnecessary
+Dockerfile
+.dockerignore
+
+# Other potential clutter
+npm-debug.log
+dist
+.cache
+.idea
+.vscode
